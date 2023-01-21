@@ -22,10 +22,10 @@ setup(
     author_email='info@machinezone.com',
     license='proprietary',
     packages=find_packages(exclude=['ez_setup']),
-    install_requires=['parsimonious==0.7.0'],
+    install_requires=['parsimonious==0.10.0'],
     tests_require=['nose'],
     test_suite='nose.collector',
-    url='https://github.com/machinezone/python_etf',
+    url='https://github.com/padteclab/python_etf',
     include_package_data=True,
     classifiers=[
         'Intended Audience :: Developers',
@@ -42,5 +42,6 @@ setup(
         'Topic :: Software Development :: Libraries',
         'Topic :: Text Processing :: General'],
     keywords=['parse', 'parser', 'erlang', 'peg', 'grammar', 'language'],
+    # setuptools~57.5.0 (use_2to3 was removed in 58.0.0)
     use_2to3=version_info >= (3,)
 )
