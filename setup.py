@@ -41,7 +41,5 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Topic :: Software Development :: Libraries',
         'Topic :: Text Processing :: General'],
-    keywords=['parse', 'parser', 'erlang', 'peg', 'grammar', 'language'],
-    # setuptools~57.5.0 (use_2to3 was removed in 58.0.0)
-    use_2to3=version_info >= (3,)
+    keywords=['parse', 'parser', 'erlang', 'peg', 'grammar', 'language']
 )
